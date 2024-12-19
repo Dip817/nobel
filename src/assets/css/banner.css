@@ -1,0 +1,30 @@
+.banner-main{
+    background-image: url('../../../public/banner.jpg');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.banner-main{
+    color: #FFFFFF;
+    font-family: "Inter", serif;
+    justify-content: center;
+    align-items: center;    
+}
+.banner-buttons button{
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+    border: none;
+}
+.banner-buttons a{
+    padding: 9px 20px 9px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+   color: white;
+}
+.banner-buttons{
+    gap: 15px;
+}
+
+
