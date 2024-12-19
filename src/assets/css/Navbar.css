@@ -1,0 +1,11 @@
+.navbar a{
+ text-decoration: none;
+ font-family: "Inter", serif;
+ padding: 8px 15px;
+ color: #FFFFFF;
+}
+.navbar{
+    justify-content: flex-end;
+    display: flex;
+    background-color: cadetblue;
+}
