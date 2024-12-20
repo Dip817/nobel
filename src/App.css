@@ -1,0 +1,12 @@
+.hollow-btn{
+    padding: 9px 20px 9px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+   color: white;
+}
+.fill-btn{
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+    border: none;
+}

@@ -1,6 +1,6 @@
 .banner-main{
     background-image: url('../../../public/banner.jpg');
-    min-height: 600px;
+    min-height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -8,23 +8,41 @@
 .banner-main{
     color: #FFFFFF;
     font-family: "Inter", serif;
-    justify-content: center;
-    align-items: center;    
-}
-.banner-buttons button{
-    border-radius: 10px;
-    padding: 7px 20px 7px 20px;
-    border: none;
-}
-.banner-buttons a{
-    padding: 9px 20px 9px 20px;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 10px;
-   color: white;
+    justify-content: space-around;
+    align-items: center;  
+    height: 100%;  
 }
 .banner-buttons{
     gap: 15px;
+    height: 100%;
+}
+.twisted-line{
+    position: absolute;
+    transform: rotate(270deg);
+    right: 0%;
+}
+.twisted-line::before{
+    width: 70%;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    content: '';
+    right: 102%;
+}
+.logo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    top: -12%;
+    left: 0%;
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
