@@ -1,0 +1,33 @@
+.about-main{
+    display: flex;
+    margin-top: 6rem;
+}
+.about-main-left{
+    width:50%;   
+}
+.about-main-left p{
+    color: #6F6F6F;
+}
+.about-main-right{
+    width: 50%;    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main-right div{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.about-main-right img{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-main-left h2{
+    font-family: "Roboto", serif;
+    color: maroon;
+}
