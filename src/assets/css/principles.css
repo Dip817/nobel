@@ -1,0 +1,33 @@
+.principles-main container{
+    
+    font-family: "Inter", serif;
+}
+.principle-cards{
+    display: flex;
+    margin-top: 5rem;
+    gap: 50px;
+}
+.principle-cards pcard{
+    width: 20%; 
+}
+.pcard{
+    border: 2px solid #29549A;
+    align-items: center;
+    display: flex;
+    padding: 10px 15px 10px 15px; 
+    height: 300px;
+    justify-content: flex-end;
+    box-shadow: 13px 16px 13px 2px #00000040;
+    background-color: white;
+    transition: 0.5s ease;
+}
+.pcard h4{
+    color: #29549A;
+    font-weight: 700;
+}
+.pcard p{
+    font-weight: 400;
+}
+.pcard:hover {
+    transform: scale(1.05);
+}
