@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Principles from './components/Principles';
+import ProgrammeComp from './components/ProgrammeComp';
 function App() {
   const router = createBrowserRouter([
     {path:'/',
       element:<>
-        <Principles/>       
+        <ProgrammeComp/>       
       </>
     }    
   ])
