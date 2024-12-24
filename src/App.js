@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Contactform from './components/Contactform'
+import Footer from './components/Footer';
 function App() {
   const router = createBrowserRouter([      
     {
       path:'/contact',
       element:<>
-        <Contactform/>       
+        <Footer/>       
       </>
     },    
   ])

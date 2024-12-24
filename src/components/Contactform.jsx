@@ -6,10 +6,10 @@ function Contactform() {
     <>
     <div className='contactform-main d-flex flex-wrap mt-5'>
         <div className='contactform-left'>
-        <div class='contact-info d-flex flex-column'>
+        <div class='contact-info d-flex'>
             <h1>Contact us</h1>
             <p style={{fontSize:'20px',fontWeight:'400px'}}>Register for daily updates</p>
-            <div class="details">
+            <div class="details mt-5">
                 <p><b>&#x2709; </b> hello@relume.io</p>
                 <p><i class='bx bxs-phone'></i> +1 (555) 000-0000</p>
                 <p><i class='bx bx-current-location'></i> 123 Sample St, Sydney NSW 2000 AU</p>
