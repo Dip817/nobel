@@ -10,3 +10,19 @@
     padding: 7px 20px 7px 20px;
     border: none;
 }
+@media (max-width:426px){
+    .contactform-main{
+        flex-direction: column;
+        gap: 40px;
+        
+    }
+    .contactform-right{
+        order: 1;
+        width: 100% !important;
+    }
+    .contactform-left{
+    
+        width: 100% !important;
+        order: 2;
+    }
+}
