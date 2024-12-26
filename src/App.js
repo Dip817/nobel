@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
+import AdmissionForm from './components/AdmissionForm';
 function App() {
   const router = createBrowserRouter([      
     {
-      path:'/contact',
+      path:'/',
       element:<>
-        <Footer/>       
+        <AdmissionForm/>       
       </>
     },    
   ])

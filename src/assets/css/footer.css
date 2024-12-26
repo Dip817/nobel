@@ -38,3 +38,41 @@
     width: 20%;
     border: 1px solid black;
 }
+.footer-main-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#29549A;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-main-bottom a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+}
+.footer-main-bottom div{
+    
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+  }
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+}
+.trademark{
+    background-color: #29549A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    align-items: center;
+}
+.trademark p{
+    margin: 0px;
+    padding: 12px 0px;
+}
+
