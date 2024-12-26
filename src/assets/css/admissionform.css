@@ -1,3 +1,10 @@
 .admissionform-main{
     background-image: url('../../../public/bg-admission.jpeg');
 }
+.admissionform-heading{
+    display: flex;
+    justify-content: center;
+}
+.admissionform-heading h1{
+    color: black;
+}
