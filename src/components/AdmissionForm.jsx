@@ -12,7 +12,8 @@ function AdmissionForm() {
             <div class="form-group">
                 <label for="branch">Please Select Branch</label>
                 <select id="branch" name="branch">
-                    <option>KPHP</option>
+                    <option>ABC</option>
+                    <option>XYZ</option>
                 </select>
             </div>
             <div class="form-group">
@@ -74,16 +75,17 @@ function AdmissionForm() {
                 <label for="relation">Choose Relation</label>
                 <select id="relation" name="relation">
                     <option>Father</option>
+                    <option>Mother</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="father-first-name">Father First Name</label>
+                <label for="father-first-name">First Name</label>
                 <input type="text" id="father-first-name" name="father-first-name"></input>
             </div>
 
             <div class="form-group">
-                <label for="father-last-name">Father Last Name</label>
+                <label for="father-last-name">Last Name</label>
                 <input type="text" id="father-last-name" name="father-last-name"></input>
             </div>
             </div>
@@ -100,9 +102,8 @@ function AdmissionForm() {
 
             <div class="form-group">
                 <label for="father-qualification">Education Qualification</label>
-                <select id="father-qualification" name="father-qualification">
-                    <option>B.Tech</option>
-                </select>
+                <input id="father-qualification" name="father-qualification">               
+                </input>
             </div>
             </div>
             
@@ -119,16 +120,17 @@ function AdmissionForm() {
                 <label for="mother-relation">Choose Relation</label>
                 <select id="mother-relation" name="mother-relation">
                     <option>Mother</option>
+                    <option>Father</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="mother-first-name">Mother First Name</label>
+                <label for="mother-first-name">First Name</label>
                 <input type="text" id="mother-first-name" name="mother-first-name"></input>
             </div>
 
             <div class="form-group">
-                <label for="mother-last-name">Mother Last Name</label>
+                <label for="mother-last-name">Last Name</label>
                 <input type="text" id="mother-last-name" name="mother-last-name"></input>
             </div>
             </div>
@@ -145,9 +147,9 @@ function AdmissionForm() {
 
             <div class="form-group">
                 <label for="mother-qualification">Education Qualification</label>
-                <select id="mother-qualification" name="mother-qualification">
-                    <option>B.Tech</option>
-                </select>
+                <input id="mother-qualification" name="mother-qualification">
+                
+                </input>
             </div>
             </div>
             <div class="form-group">
