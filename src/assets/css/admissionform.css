@@ -1,10 +1,87 @@
 .admissionform-main{
     background-image: url('../../../public/bg-admission.jpeg');
-}
-.admissionform-heading{
     display: flex;
     justify-content: center;
-}
-.admissionform-heading h1{
+    align-items: center;
+    font-family: "Roboto", serif;
+    font-weight: 800;
     color: black;
+}
+.form-container {
+    width: 65%;
+    background-color: rgba(217, 217, 217, 0.6);
+    backdrop-filter: blur(40px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 250px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    color: #000;
+    
+    /* border-bottom: 1px solid black; */
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-group select {
+    appearance: none;
+}
+
+.btn {
+    display: block;
+    width: 25%;
+    padding: 20px 25px;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+.form-group address{
+    width: 100%;
+}
+#father-address{
+    width: 100%;
+}
+#mother-address{
+    width: 100%;
 }
