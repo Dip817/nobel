@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import AdmissionForm from './components/AdmissionForm';
+import Trial from './components/Trial';
 function App() {
   const router = createBrowserRouter([      
     {
@@ -8,7 +9,13 @@ function App() {
       element:<>
         <AdmissionForm/>       
       </>
-    },    
+    },  
+    {
+      path:'/trial',
+      element: <>
+        <Trial/>
+      </>
+    }  
   ])
   return (
     <>
