@@ -5,9 +5,10 @@ function navbar() {
     return (
         <>
             <div className='navbar'>
-                <Link to=''>About</Link>
+                <Link to='/'>Home</Link>
+                <Link to='/admission'>Admission</Link>
                 <Link to=''>Campus</Link>
-                <Link to=''>Contact</Link>
+                <Link to='/contactus'>Contact</Link>
             </div>
         </>
     )

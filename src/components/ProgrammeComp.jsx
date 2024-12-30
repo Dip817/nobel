@@ -4,7 +4,7 @@ import '../assets/css/programmecomp.css'
 function ProgrammeComp() {
   return (
     <>
-      <div className='programme-main mt-5 position-relative'>
+      <div className='programme-main position-relative' style={{marginTop:'6rem'}}>
         <div className='programme-main-left'></div>
         <div className='programme-main-right mt-5 d-flex justify-content-center flex-column'>          
           <h2>PRIMARY YEARS PROGRAMME</h2>

@@ -1,21 +1,55 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import AdmissionForm from './components/AdmissionForm';
-import Trial from './components/Trial';
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import AboutComponent from './components/AboutComponent'
+import Principles from './components/Principles'
+import ProgrammeComp from './components/ProgrammeComp'
+import Gallery from './components/Gallery';
+import Contactform from './components/Contactform'
+import ContactUs from './components/contact/ContactUs';
+import Footer from './components/Footer'
+import AdmissinForm from './components/AdmissionForm';
+import Trial from './components/Trial'
 function App() {
   const router = createBrowserRouter([      
     {
       path:'/',
       element:<>
-        <AdmissionForm/>       
+        <Navbar/> 
+        <Banner/>     
+        <AboutComponent/>
+        <Principles/>
+        <ProgrammeComp/>
+        <Gallery/>
+        <Contactform/>
+        <Footer/>
       </>
-    },  
+    }, 
     {
-      path:'/trial',
-      element: <>
-        <Trial/>
+      path:'/contactus',
+      element:<>
+        <Navbar/> 
+        <ContactUs/>
+        <Footer/>
       </>
-    }  
+    }, 
+    {
+      path:'/admission',
+      element:<>
+        <Navbar/> 
+        <AdmissinForm/>
+        <Footer/>
+      </>
+    }, 
+    {
+      path:'/download-admission-form',
+      element:<>
+        <Navbar/> 
+        <Trial/>
+        <Footer/>
+      </>
+    }, 
   ])
   return (
     <>

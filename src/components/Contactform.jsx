@@ -4,7 +4,7 @@ import '../assets/css/contactform.css'
 function Contactform() {
   return (
     <>
-    <div className='contactform-main d-flex flex-wrap mt-5'>
+    <div className='contactform-main d-flex flex-wrap my-5'>
         <div className='contactform-left'>
         <div class='contact-info d-flex'>
             <h1>Contact us</h1>
