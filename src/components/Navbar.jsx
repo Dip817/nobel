@@ -6,6 +6,7 @@ function navbar() {
         <>
             <div className='navbar'>
                 <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
                 <Link to='/admission'>Admission</Link>
                 <Link to=''>Campus</Link>
                 <Link to='/contactus'>Contact</Link>

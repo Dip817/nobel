@@ -18,7 +18,7 @@ function AdmissionForm() {
         parentLastName: '',
         parentEmail: '',
         parentPhone: '',
-        parentQualification: '',
+        parentOccupation: '',
         parentAddress: '',
         // ... Add other fields here
     });
@@ -47,6 +47,7 @@ function AdmissionForm() {
                 <div className="form-container container">
                     <h1>2025 Admission At Nobels Academy</h1>
                     <form>
+                    <div className='row-diff-container'>
                         <div className='row-diff'>
                             <div className="form-group">
                                 <label htmlFor="branch">Please Select Branch</label>
@@ -82,6 +83,7 @@ function AdmissionForm() {
                                 />
                             </div>
                         </div>
+                        
                         <div className='row-diff'>
                             <div className="form-group">
                                 <label htmlFor="firstName">First Name</label>
@@ -130,7 +132,7 @@ function AdmissionForm() {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="dob">DOB</label>
-                                <input type='date'/>
+                                <input type='date' />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="admission-class">Admission to class</label>
@@ -149,12 +151,176 @@ function AdmissionForm() {
                                     <option value="XYZ">7th</option>
                                     <option value="XYZ">8th</option>
                                 </select>
+                            </div>                       
+                        
+                        </div>
+                        </div>
+                        {/* Repeat for other fields */}
+                        {/* parents section */}
+                        <div className='row-diff-container'>
+                        <div className='row-diff'>
+                            <div className="form-group">
+                                <label htmlFor=" parentRelation">Guardian/Parent</label>
+                                <select
+                                    id="branch"
+                                    name=" parentRelation"
+                                    value={formData.parentRelation}
+                                    onChange={handleChange}
+                                >
+                                    <option value="ABC">Father</option>
+                                    <option value="XYZ">Mother</option>
+                                </select>
                             </div>
+                            <div className="form-group">
+                                <label htmlFor=" parentFirstName">First Name</label>
+                                <input
+                                    type="text"
+                                    id=" parentFirstName"
+                                    name=" parentFirstName"
+                                    value={formData.parentFirstName}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="parentLastName">Last Name</label>
+                                <input
+                                    type="text"
+                                    id="parentLastName"
+                                    name="parentLastName"
+                                    value={formData.parentLastName}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        <div className='row-diff'>
+                            <div className="form-group">
+                                <label htmlFor="parentEmail">Email</label>
+                                <input
+                                    type="email"
+                                    id="parentEmail"
+                                    name="parentEmail"
+                                    value={formData.parentEmail}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="parentPhone">Phone Number*</label>
+                                <input
+                                    type="num"
+                                    id="parentPhone"
+                                    name="parentPhone"
+                                    value={formData.parentPhone}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor=" parentOccupation">Occupation</label>
+                                <input
+                                    type="text"
+                                    id=" parentOccupation"
+                                    name=" parentOccupation"
+                                    value={formData.parentOccupation}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        <div className='row-diff'>
+                            <div className='form-group'>
+                                <label htmlFor="parentAddress">Address</label>
+                                <input
+                                    type="text"
+                                    placeholder="Please type your address here..."
+                                    id=" parentAddress"
+                                    name="parentAddress"
+                                    value={formData.parentAddress}
+                                    onChange={handleChange} />
+                            </div>
+                        </div>
+                        </div>
+                        {/* parent 2 */}
+                        <div className='row-diff-container'>
+                        <div className='row-diff'>
+                            <div className="form-group">
+                                <label htmlFor=" parentRelation">Guardian/Parent</label>
+                                <select
+                                    id="branch"
+                                    name=" parentRelation"
+                                    value={formData.parentRelation}
+                                    onChange={handleChange}
+                                >
+                                    <option value="ABC">Father</option>
+                                    <option value="XYZ">Mother</option>
+                                </select>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor=" parentFirstName">First Name</label>
+                                <input
+                                    type="text"
+                                    id=" parentFirstName"
+                                    name=" parentFirstName"
+                                    value={formData.parentFirstName}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="parentLastName">Last Name</label>
+                                <input
+                                    type="text"
+                                    id="parentLastName"
+                                    name="parentLastName"
+                                    value={formData.parentLastName}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        <div className='row-diff'>
+                            <div className="form-group">
+                                <label htmlFor="parentEmail">Email</label>
+                                <input
+                                    type="email"
+                                    id="parentEmail"
+                                    name="parentEmail"
+                                    value={formData.parentEmail}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="parentPhone">Phone Number*</label>
+                                <input
+                                    type="num"
+                                    id="parentPhone"
+                                    name="parentPhone"
+                                    value={formData.parentPhone}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor=" parentOccupation">Occupation</label>
+                                <input
+                                    type="text"
+                                    id=" parentOccupation"
+                                    name=" parentOccupation"
+                                    value={formData.parentOccupation}
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        <div className='row-diff'>
+                            <div className='form-group'>
+                                <label htmlFor="parentAddress">Address</label>
+                                <input
+                                    type="text"
+                                    placeholder="Please type your address here..."
+                                    id=" parentAddress"
+                                    name="parentAddress"
+                                    value={formData.parentAddress}
+                                    onChange={handleChange} />
+                            </div>
+                        </div>
                         </div>
                         <button type="button" className="fill-btn-two" onClick={handleApplyNow}>
                             Apply Now
                         </button>
-                        {/* Repeat for other fields */}
                     </form>
 
                 </div>

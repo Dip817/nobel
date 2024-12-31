@@ -67,8 +67,8 @@
     text-align: right;
 }
 .form-container{
-    background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
+    
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,6 +81,14 @@
     width: 100%;
     justify-content: space-between;
     gap: 24px;
+    
+}
+.row-diff-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 2rem 0rem;
+    padding: 20px;
+    border-radius: 20px;
 }
 .form-group input,
 .form-group select{
@@ -88,4 +96,9 @@
     background-color: white;
     width: 300px;
     height: 50px;
+    border-radius: 40px;
+}
+.form-group label{
+    font-size: 18px;
+
 }

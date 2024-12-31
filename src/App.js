@@ -11,6 +11,8 @@ import ContactUs from './components/contact/ContactUs';
 import Footer from './components/Footer'
 import AdmissinForm from './components/AdmissionForm';
 import Trial from './components/Trial'
+// import AboutPage from './components/about/AboutPage';
+import About from './components/about/About';
 function App() {
   const router = createBrowserRouter([      
     {
@@ -23,6 +25,14 @@ function App() {
         <ProgrammeComp/>
         <Gallery/>
         <Contactform/>
+        <Footer/>
+      </>
+    }, 
+    {
+      path:'/about',
+      element:<>
+        <Navbar/> 
+        <About/>
         <Footer/>
       </>
     }, 
