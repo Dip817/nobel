@@ -3,7 +3,7 @@
 }
 .main-gallery h2{
     text-transform: uppercase;
-    color: #29549A;
+    color: var(--primary-color);
     font-weight: 700;
 }
 .main-gallery img{
@@ -25,19 +25,19 @@
     display: flex;
 }
 .low-aligned{
-    background-color: blue;
+    background-color: var(--primary-color);
     width: 100%;
     height: 65%;
     align-self: flex-end;
 }
 .high-aligned{
-    background-color: blue;
+    background-color: var(--primary-color);
     width: 100%;
     height: 65%;
     align-self: flex-start;
 }
 .height-full{
-    background-color: blue;
+    background-color: var(--primary-color);
     width: 100%;
     height: 100%;
 }

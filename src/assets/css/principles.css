@@ -11,7 +11,7 @@
     width: 20%; 
 }
 .pcard{
-    border: 2px solid #29549A;
+    border: 2px solid var(--primary-color);
     align-items: center;
     display: flex;
     padding: 10px 15px 10px 15px; 
@@ -22,7 +22,7 @@
     transition: 0.5s ease;
 }
 .pcard h4{
-    color: #29549A;
+    color: var(--primary-color);
     font-weight: 700;
 }
 .pcard p{
@@ -30,4 +30,7 @@
 }
 .pcard:hover {
     transform: scale(1.05);
+}
+.principles-main h2{
+    color: var(--primary-color);
 }

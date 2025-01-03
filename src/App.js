@@ -13,6 +13,8 @@ import AdmissinForm from './components/AdmissionForm';
 import Trial from './components/Trial'
 // import AboutPage from './components/about/AboutPage';
 import About from './components/about/About';
+import Campus from './components/campus/Campus';
+import Academic from './components/Academic';
 function App() {
   const router = createBrowserRouter([      
     {
@@ -22,6 +24,7 @@ function App() {
         <Banner/>     
         <AboutComponent/>
         <Principles/>
+        <Academic/>
         <ProgrammeComp/>
         <Gallery/>
         <Contactform/>
@@ -60,6 +63,14 @@ function App() {
         <Footer/>
       </>
     }, 
+    {
+      path:'/campus',
+      element:<>
+        <Navbar/>
+        <Campus/>
+        <Footer/>
+      </>
+    }
   ])
   return (
     <>

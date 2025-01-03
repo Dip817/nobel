@@ -6,7 +6,7 @@ function Principles() {
         <div style={{backgroundColor:'#d9d9d9',padding:'5rem 0rem',marginTop:'5%'}}>
             <div className='principles-main container' >
                 <div className='d-flex flex-column align-items-center' style={{ fontfamily: 'Inter' }}>
-                    <h2 style={{color:'#29549A'}}>Core Principles of Nobel's Academy</h2>
+                    <h2>Core Principles of Nobel's Academy</h2>
                     <p>Principles are more than anything at Nobel's Academy</p>
                 </div>
                 <div className='principle-cards'>

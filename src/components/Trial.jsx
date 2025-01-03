@@ -2,6 +2,7 @@ import React from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { useLocation } from 'react-router-dom';
+import '../assets/css/trial/trial.css'
 
 function Trial() {
     const location = useLocation();

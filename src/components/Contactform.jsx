@@ -34,7 +34,7 @@ function Contactform() {
                 <input type="checkbox" id="terms" name="terms" required></input>
                 <label for="terms">I accept the <Link to=''>Terms</Link></label>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" className='fill-btn-duplicate'>Submit</button>
         </form>
         </div>
                

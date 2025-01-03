@@ -29,5 +29,5 @@
 }
 .about-main-left h2{
     font-family: "Roboto", serif;
-    color: maroon;
+    color: var(--primary-color);
 }

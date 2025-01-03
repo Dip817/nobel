@@ -1,9 +1,15 @@
 #career-container {
     height: auto;
+    color: var(--primary-color);
   }
-  
+  #career-container p{
+    color: var(--primary-color);
+  }
   .empty-div {
     height: 120px;
+  }
+  .header-text{
+    padding-bottom: 5rem;
   }
   
   .left-career-box {

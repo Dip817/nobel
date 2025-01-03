@@ -2,43 +2,139 @@
     padding: 9px 20px 9px 20px;
     text-decoration: none;
     border: 1px solid white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
    color: white;
-   transition: 0.3s ease-in-out;
+   z-index: 1;
+   position: relative;
+   overflow: hidden;
    &:hover{
-    color: white;
-    background-color: #29549A;
-    border: 1px solid #29549A;
+    color: var(--primary-color);
    }
 }
-.fill-btn{
-    border-radius: 10px;
-    padding: 7px 20px 7px 20px;
-    border: 1px solid transparent;
-    font-weight: 400;
+.hollow-btn::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 0%;
+    padding: 0;
+    border: none;
     transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+.hollow-btn:hover:before{
+    left: 0%;
+}
+.fill-btn{
+    border-radius: 0px;
+    padding: 7px 20px 7px 20px;
+    border: none;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    /* transition: 0.3s ease-in-out; */
     &:hover{
-        border: 1px solid white;
-        background-color: #29549A;
         color: white;
         font-weight: 400;
     }
 }
+.fill-btn::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: -100%;
+    right: 0%;
+    padding: 0px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+.fill-btn:hover:before{
+    left: 0%;
+}
+/* second type of fill-btn */
+.fill-btn-duplicate{
+    border-radius: 0px;
+    padding: 7px 20px 7px 20px;
+    border: 1px solid transparent;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    /* transition: 0.3s ease-in-out; */
+    &:hover{
+        color: white;
+        font-weight: 400;
+        border: 1px solid white;
+    }
+}
+.fill-btn-duplicate::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: -100%;
+    right: 0%;
+    padding: 0px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+.fill-btn-duplicate:hover:before{
+    left: 0%;
+}
 .fill-btn-two{
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 7px 20px 7px 20px;
     border: none;
-    background-color: #29549A;
-    color: white;
+    background-color: transparent;
+    color: var(--primary-color);
     font-weight: 400;
-    border: 1px solid transparent;
+    border: 1px solid var(--primary-color);
     transition: 0.3s ease-in-out;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
     &:hover{
-        color: black;
+        color: #ffff;
         background-color: white;
-        border: 1px solid black;
         font-weight: 400;
     }
+}
+.fill-btn-two::before{
+    content: '';
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 0;
+    padding: 0;
+    border: none;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.fill-btn-two:hover:before{
+    left: 0;
+}
+
+:root {
+    --primary-color: #7b139d;
 }
 @media (max-width:426px){
     .contactform-main{

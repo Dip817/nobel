@@ -1,5 +1,5 @@
 .contactform-main {
-    background-color: #29549A;
+    background-color: var(--primary-color);
     padding: 30px;
 }
 

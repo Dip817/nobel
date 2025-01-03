@@ -24,7 +24,7 @@
     border-radius: 0px;
   }
   .contact-details-div{
-    background-color: #29549A;
+    background-color: var(--primary-color);
     width: 48%;
     color: white;
     display: flex;

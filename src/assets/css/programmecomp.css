@@ -3,7 +3,7 @@
 }
 .programme-main-left{
     width:10% ;
-    background-color: #29549A;
+    background-color: var(--primary-color);
    border-top-right-radius: 40px;
    border-bottom-right-radius: 40px;
     min-height: 450px;
@@ -11,7 +11,7 @@
 }
 .programme-main-right{
     width: 90%;
-    background-color: #29549A;
+    background-color: var(--primary-color);
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     padding: 30px;
