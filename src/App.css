@@ -134,7 +134,7 @@
 }
 
 :root {
-    --primary-color: #7b139d;
+    --primary-color: #800000;
 }
 @media (max-width:426px){
     .contactform-main{
